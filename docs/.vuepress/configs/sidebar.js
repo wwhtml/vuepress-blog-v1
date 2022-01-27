@@ -99,31 +99,39 @@ const sidebar = {
     },
   ],
   "/JS设计模式/": [
-    "/JS设计模式/简介",
+
+
+    {
+      title: "概述", // 必要的
+      collapsable: false, // 可选的, 默认值是 true,
+      // sidebarDepth: 4, // 可选的, 默认值是 1
+      children: [
+        "/JS设计模式/概述/简介",
+
+        "/JS设计模式/概述/设计模式总览",
+      ],
+    },
     {
       title: "创建型设计模式", // 必要的
       collapsable: false, // 可选的, 默认值是 true,
       // sidebarDepth: 4, // 可选的, 默认值是 1
       children: [
-        "/JS设计模式/创建型设计模式/工厂模式",
         "/JS设计模式/创建型设计模式/单例模式",
+
+        "/JS设计模式/创建型设计模式/工厂模式",
       ],
     },
     {
       title: "结构型设计模式", // 必要的
       collapsable: false, // 可选的, 默认值是 true,
       // sidebarDepth: 4, // 可选的, 默认值是 1
-      children: [
-        "/JS设计模式/结构型设计模式/代理模式",
-      ],
+      children: ["/JS设计模式/结构型设计模式/代理模式"],
     },
     {
       title: "行为型设计模式", // 必要的
       collapsable: false, // 可选的, 默认值是 true,
       // sidebarDepth: 4, // 可选的, 默认值是 1
-      children: [
-        "/JS设计模式/行为型设计模式/备忘录模式",
-      ],
+      children: ["/JS设计模式/行为型设计模式/备忘录模式"],
     },
   ],
 };
