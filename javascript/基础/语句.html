@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>语句 | 前端开发</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="description" content="Just playing around">
+    
+    <link rel="preload" href="/assets/css/0.styles.88d60c64.css" as="style"><link rel="preload" href="/assets/js/app.2601bdc8.js" as="script"><link rel="preload" href="/assets/js/2.13089680.js" as="script"><link rel="preload" href="/assets/js/44.f828a660.js" as="script"><link rel="prefetch" href="/assets/js/10.3a521b81.js"><link rel="prefetch" href="/assets/js/11.cc9ccd37.js"><link rel="prefetch" href="/assets/js/12.b90bc713.js"><link rel="prefetch" href="/assets/js/13.c5196b82.js"><link rel="prefetch" href="/assets/js/14.feece68d.js"><link rel="prefetch" href="/assets/js/15.35361e61.js"><link rel="prefetch" href="/assets/js/16.ea8ffe1c.js"><link rel="prefetch" href="/assets/js/17.7d6a0ad8.js"><link rel="prefetch" href="/assets/js/18.c075feeb.js"><link rel="prefetch" href="/assets/js/19.35a820c2.js"><link rel="prefetch" href="/assets/js/20.436d619a.js"><link rel="prefetch" href="/assets/js/21.71aa206b.js"><link rel="prefetch" href="/assets/js/22.19cf44c5.js"><link rel="prefetch" href="/assets/js/23.914482f3.js"><link rel="prefetch" href="/assets/js/24.cbed7bad.js"><link rel="prefetch" href="/assets/js/25.695ce8e1.js"><link rel="prefetch" href="/assets/js/26.6722a03b.js"><link rel="prefetch" href="/assets/js/27.e6a32b9e.js"><link rel="prefetch" href="/assets/js/28.932bb34a.js"><link rel="prefetch" href="/assets/js/29.0404d139.js"><link rel="prefetch" href="/assets/js/3.532341c7.js"><link rel="prefetch" href="/assets/js/30.1b439d45.js"><link rel="prefetch" href="/assets/js/31.f166f8ff.js"><link rel="prefetch" href="/assets/js/32.be341681.js"><link rel="prefetch" href="/assets/js/33.f34013ad.js"><link rel="prefetch" href="/assets/js/34.dfe5f141.js"><link rel="prefetch" href="/assets/js/35.cf766a45.js"><link rel="prefetch" href="/assets/js/36.2a5a20f6.js"><link rel="prefetch" href="/assets/js/37.5f9c3fbd.js"><link rel="prefetch" href="/assets/js/38.1f9d8b4e.js"><link rel="prefetch" href="/assets/js/39.281ff763.js"><link rel="prefetch" href="/assets/js/4.ebb91132.js"><link rel="prefetch" href="/assets/js/40.1e04f78d.js"><link rel="prefetch" href="/assets/js/41.70841dfe.js"><link rel="prefetch" href="/assets/js/42.2b602f7d.js"><link rel="prefetch" href="/assets/js/43.1f440c1b.js"><link rel="prefetch" href="/assets/js/45.bee8692f.js"><link rel="prefetch" href="/assets/js/46.65407c70.js"><link rel="prefetch" href="/assets/js/47.b0eddc71.js"><link rel="prefetch" href="/assets/js/48.c1eeccc5.js"><link rel="prefetch" href="/assets/js/49.5241b201.js"><link rel="prefetch" href="/assets/js/5.eb3bf5f5.js"><link rel="prefetch" href="/assets/js/50.0a157649.js"><link rel="prefetch" href="/assets/js/51.1bb1d030.js"><link rel="prefetch" href="/assets/js/52.9ae255a6.js"><link rel="prefetch" href="/assets/js/53.16606168.js"><link rel="prefetch" href="/assets/js/54.611256a3.js"><link rel="prefetch" href="/assets/js/55.49a9b5dd.js"><link rel="prefetch" href="/assets/js/56.28be028b.js"><link rel="prefetch" href="/assets/js/57.a6f880a7.js"><link rel="prefetch" href="/assets/js/58.c5d9f6e2.js"><link rel="prefetch" href="/assets/js/59.c2ac5938.js"><link rel="prefetch" href="/assets/js/6.08614262.js"><link rel="prefetch" href="/assets/js/7.768bf869.js"><link rel="prefetch" href="/assets/js/8.00fdf09d.js"><link rel="prefetch" href="/assets/js/9.c3cdfab9.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.88d60c64.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/assets/img/logo.png" alt="前端开发" class="logo"> <span class="site-name can-hide">前端开发</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/javascript/" class="nav-link router-link-active">
+  Guide
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><span class="title">前端</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端" class="mobile-dropdown-title"><span class="title">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          基础
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/html&amp;css/" class="nav-link">
+  html&amp;css
+</a></li><li class="dropdown-subitem"><a href="/javascript/基础/简介.html" class="nav-link">
+  JavaScript
+</a></li><li class="dropdown-subitem"><a href="/ts/" class="nav-link">
+  TypeScript
+</a></li></ul></li><li class="dropdown-item"><h4>
+          框架
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/vue/概述.html" class="nav-link">
+  vue.js
+</a></li><li class="dropdown-subitem"><a href="/react/" class="nav-link">
+  react.js
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="后端" class="dropdown-title"><span class="title">后端</span> <span class="arrow down"></span></button> <button type="button" aria-label="后端" class="mobile-dropdown-title"><span class="title">后端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/guide/" class="nav-link">
+  node.js
+</a></li><li class="dropdown-item"><!----> <a href="/guide/" class="nav-link">
+  php
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="进阶" class="dropdown-title"><span class="title">进阶</span> <span class="arrow down"></span></button> <button type="button" aria-label="进阶" class="mobile-dropdown-title"><span class="title">进阶</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/JS设计模式/概述/简介.html" class="nav-link">
+  JS设计模式
+</a></li><li class="dropdown-item"><!----> <a href="/js-shu/" class="nav-link">
+  JS算法与数据结构
+</a></li><li class="dropdown-item"><!----> <a href="/ajax/" class="nav-link">
+  Ajax&amp;Axios
+</a></li><li class="dropdown-item"><!----> <a href="/http/" class="nav-link">
+  HTTP&amp;HTTPS
+</a></li></ul></div></div><div class="nav-item"><a href="/guide/" class="nav-link">
+  UI相关
+</a></div><div class="nav-item"><a href="/guide/" class="nav-link">
+  项目实战
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Language Menu" class="dropdown-title"><span class="title">Languages</span> <span class="arrow down"></span></button> <button type="button" aria-label="Language Menu" class="mobile-dropdown-title"><span class="title">Languages</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/language/chinese/" class="nav-link">
+  中文
+</a></li><li class="dropdown-item"><!----> <a href="/language/english/" class="nav-link">
+  英文
+</a></li></ul></div></div><div class="nav-item"><a href="https://google.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  External
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <a href="https://www.baidu.com" target="_blank" rel="noopener noreferrer" class="repo-link">
+    百度
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/javascript/" class="nav-link router-link-active">
+  Guide
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><span class="title">前端</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端" class="mobile-dropdown-title"><span class="title">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          基础
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/html&amp;css/" class="nav-link">
+  html&amp;css
+</a></li><li class="dropdown-subitem"><a href="/javascript/基础/简介.html" class="nav-link">
+  JavaScript
+</a></li><li class="dropdown-subitem"><a href="/ts/" class="nav-link">
+  TypeScript
+</a></li></ul></li><li class="dropdown-item"><h4>
+          框架
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/vue/概述.html" class="nav-link">
+  vue.js
+</a></li><li class="dropdown-subitem"><a href="/react/" class="nav-link">
+  react.js
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="后端" class="dropdown-title"><span class="title">后端</span> <span class="arrow down"></span></button> <button type="button" aria-label="后端" class="mobile-dropdown-title"><span class="title">后端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/guide/" class="nav-link">
+  node.js
+</a></li><li class="dropdown-item"><!----> <a href="/guide/" class="nav-link">
+  php
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="进阶" class="dropdown-title"><span class="title">进阶</span> <span class="arrow down"></span></button> <button type="button" aria-label="进阶" class="mobile-dropdown-title"><span class="title">进阶</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/JS设计模式/概述/简介.html" class="nav-link">
+  JS设计模式
+</a></li><li class="dropdown-item"><!----> <a href="/js-shu/" class="nav-link">
+  JS算法与数据结构
+</a></li><li class="dropdown-item"><!----> <a href="/ajax/" class="nav-link">
+  Ajax&amp;Axios
+</a></li><li class="dropdown-item"><!----> <a href="/http/" class="nav-link">
+  HTTP&amp;HTTPS
+</a></li></ul></div></div><div class="nav-item"><a href="/guide/" class="nav-link">
+  UI相关
+</a></div><div class="nav-item"><a href="/guide/" class="nav-link">
+  项目实战
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Language Menu" class="dropdown-title"><span class="title">Languages</span> <span class="arrow down"></span></button> <button type="button" aria-label="Language Menu" class="mobile-dropdown-title"><span class="title">Languages</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/language/chinese/" class="nav-link">
+  中文
+</a></li><li class="dropdown-item"><!----> <a href="/language/english/" class="nav-link">
+  英文
+</a></li></ul></div></div><div class="nav-item"><a href="https://google.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  External
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <a href="https://www.baidu.com" target="_blank" rel="noopener noreferrer" class="repo-link">
+    百度
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>基础</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/javascript/基础/简介.html" class="sidebar-link">简介</a></li><li><a href="/javascript/基础/标识符、保留字、关键字.html" class="sidebar-link">标识符、保留字和关键字</a></li><li><a href="/javascript/基础/var、let、const.html" class="sidebar-link">var、let、const</a></li><li><a href="/javascript/基础/变量、变量的解构赋值.html" class="sidebar-link">变量、变量的解构赋值</a></li><li><a href="/javascript/基础/操作符.html" class="sidebar-link">操作符</a></li><li><a href="/javascript/基础/语句.html" class="active sidebar-link">语句</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/javascript/基础/语句.html#if-语句" class="sidebar-link">if 语句</a></li><li class="sidebar-sub-header"><a href="/javascript/基础/语句.html#while和do-while" class="sidebar-link">while和do-while</a></li><li class="sidebar-sub-header"><a href="/javascript/基础/语句.html#for循环" class="sidebar-link">for循环</a></li><li class="sidebar-sub-header"><a href="/javascript/基础/语句.html#for-in" class="sidebar-link">for-in</a></li><li class="sidebar-sub-header"><a href="/javascript/基础/语句.html#break和container" class="sidebar-link">break和container</a></li><li class="sidebar-sub-header"><a href="/javascript/基础/语句.html#switch" class="sidebar-link">switch</a></li><li class="sidebar-sub-header"><a href="/javascript/基础/语句.html#with语句" class="sidebar-link">with语句</a></li><li class="sidebar-sub-header"><a href="/javascript/基础/语句.html#label" class="sidebar-link">label</a></li></ul></li><li><a href="/javascript/基础/数据类型.html" class="sidebar-link">数据类型</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>内置对象</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>对象、类与面向对象编程</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>异步操作</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>浏览器模型</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>DOM相关</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>客户端存储</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="语句"><a href="#语句" class="header-anchor">#</a> 语句</h1> <p></p><div class="table-of-contents"><ul><li><a href="#if-语句">if 语句</a></li><li><a href="#while和do-while">while和do-while</a></li><li><a href="#for循环">for循环</a></li><li><a href="#for-in">for-in</a></li><li><a href="#break和container">break和container</a></li><li><a href="#switch">switch</a></li><li><a href="#with语句">with语句</a></li><li><a href="#label">label</a></li></ul></div><p></p> <h2 id="if-语句"><a href="#if-语句" class="header-anchor">#</a> if 语句</h2> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">if</span><span class="token punctuation">(</span>condition<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	statement1
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+	statement2
+<span class="token punctuation">}</span> 
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><ul><li>condition：任意表达式。</li> <li>这两个语句可以是一行代码，也可以是一个代码块。（推荐代码块的方式）</li> <li>这个表达式的求职结果不一定是布尔值，ESMAScript会自动调用Boolean()转换函数将这个表达式转换为一个布尔值。</li> <li>如果对condition的求值结果是true,则执行condition1语句；如果结果是false执行condition2语句。</li></ul> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code>    <span class="token keyword">var</span> num <span class="token operator">=</span> <span class="token number">30</span><span class="token punctuation">;</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>num<span class="token operator">&gt;</span><span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;Greater than 20&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;less than or equal to 20&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token comment">//输出的是&quot;Greater than 20&quot;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code>    <span class="token comment">//2、条件语句求值结果不是布尔值()</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token string">&quot;&quot;</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token comment">//2</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code>
+    <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token keyword">null</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token comment">//2</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code>
+    <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token keyword">undefined</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token comment">//2</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code>
+    <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token number">NaN</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token comment">//2</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code>
+    <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token comment">//2</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code>
+    <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token comment">//2</span>
+
+    <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token comment">//2</span>
+
+    <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token comment">//2</span>
+
+    <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token comment">//2</span>
+
+
+    <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token operator">||</span><span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token comment">//2</span>
+
+    <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token boolean">false</span><span class="token operator">||</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token comment">//2</span>
+
+    <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token boolean">false</span><span class="token operator">||</span><span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token comment">//1</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token comment">//1</span>
+
+    <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token operator">&amp;&amp;</span><span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token comment">//1</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token comment">//1</span>
+
+    <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token boolean">false</span><span class="token operator">||</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token comment">//2</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token comment">//2</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br></div></div><h2 id="while和do-while"><a href="#while和do-while" class="header-anchor">#</a> while和do-while</h2> <p><strong>while语句</strong>：属于前测试循环语句。(先判断再决定是否执行循环体代码)</p> <p>1、在循环体内的代码被执行前，就会对出口条件求职。</p> <p>2、因此循环体内的代码可能永远不会被执行。</p> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> i<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span>
+<span class="token keyword">while</span><span class="token punctuation">(</span>i<span class="token operator">&lt;</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+   i<span class="token operator">+=</span><span class="token number">1</span><span class="token punctuation">;</span>
+   console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//分别输出：2,3,4,5,6,7,8,9,10</span>
+<span class="token punctuation">}</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//10</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p><strong>do-while语句</strong>（先执行一次循环体代码，再判断是否再执行循环体代码）</p> <p>1、后测试循环语句。</p> <p>2、只有在循环体中的代码执行后，才会测试出口条件，</p> <p>3、在对条件表达式求值之前，循环体内的代码至少会执行一次。</p> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> j<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span>
+<span class="token keyword">do</span><span class="token punctuation">{</span>
+    j<span class="token operator">+=</span><span class="token number">1</span><span class="token punctuation">;</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>j<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">////分别输出：2,3,4,5,6,7,8,9,10</span>
+<span class="token punctuation">}</span><span class="token keyword">while</span><span class="token punctuation">(</span>j<span class="token operator">&lt;</span><span class="token number">10</span><span class="token punctuation">)</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>j<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//10</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h2 id="for循环"><a href="#for循环" class="header-anchor">#</a> for循环</h2> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">var</span> i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span><span class="token number">10</span><span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token comment">//输出10次，分别是0 1 2 3 4 5 6 7 8 9</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>【for循环】：前测试循环语句。
+相比while可以再执行循环之前初始化变量并且定义循环后要执行的代码块。</p> <p>【for(初始化表达式;控制表达式;循环后表达式)】</p> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code> <span class="token comment">//1、while</span>
+    <span class="token keyword">var</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token keyword">var</span> count <span class="token operator">=</span> <span class="token number">5</span><span class="token punctuation">;</span>
+    <span class="token keyword">while</span> <span class="token punctuation">(</span>i <span class="token operator">&lt;</span> count<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//1,2,3,4</span>
+        i <span class="token operator">+=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token comment">//2、相当于下面的for</span>
+    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">var</span> i<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span>count<span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token comment">//初始化变量；循环条件（控制表达式），循环后要执行的代码</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//1,2,3,4</span>
+    <span class="token punctuation">}</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//5</span>
+
+    <span class="token comment">//3、for循环语句中的初始化表达式，控制语句，循环后表达式都是可选的。将这三个表达式都省略就会创建一个无限循环。</span>
+    <span class="token comment">// for(;;){//无限循环</span>
+    <span class="token comment">//     doSomething()</span>
+    <span class="token comment">// }</span>
+
+    <span class="token comment">//4、只给出控制表达式实际就是相当于while循环语句</span>
+    <span class="token keyword">var</span> j<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token punctuation">;</span>j<span class="token operator">&lt;</span><span class="token number">5</span><span class="token punctuation">;</span><span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token comment">//这里的表达式可以省略，但是要注意“;”不能省略</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>j<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//1,2,3,4</span>
+        j<span class="token operator">++</span>
+    <span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br></div></div><h2 id="for-in"><a href="#for-in" class="header-anchor">#</a> for-in</h2> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> str <span class="token operator">=</span> <span class="token string">&quot;1234567890&quot;</span><span class="token punctuation">;</span>
+    <span class="token keyword">for</span><span class="token punctuation">(</span>item <span class="token keyword">in</span> str<span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token comment">//item代表遍历的每一项的索引值</span>
+        <span class="token comment">// console.log(item);//分别输出0,1,2,3,4,5,6,7,8,9</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>str<span class="token punctuation">[</span>item<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//分别输出1,2,3,4,5,6,7,8,9,0</span>
+    <span class="token punctuation">}</span>
+
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>str<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//2</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><h2 id="break和container"><a href="#break和container" class="header-anchor">#</a> break和container</h2> <p><strong>break</strong>: 跳出循环，终止循环，强制执行循环后面的语句。</p> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code> <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">var</span> j<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span>j<span class="token operator">&lt;</span><span class="token number">10</span><span class="token punctuation">;</span>j<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token comment">//变量声明  控制语句  循环后执行的代码</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>j<span class="token operator">%</span><span class="token number">2</span><span class="token operator">===</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token keyword">break</span>
+        <span class="token punctuation">}</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>j<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+   <span class="token comment">// console.log(j);//2</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><p><strong>continue</strong>: 跳出这一轮循环，强制执行下一轮循环。</p> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code> <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">var</span> a<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span>a<span class="token operator">&lt;</span><span class="token number">10</span><span class="token punctuation">;</span>a<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>a<span class="token operator">%</span><span class="token number">2</span><span class="token operator">===</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token keyword">continue</span>
+        <span class="token punctuation">}</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//1,3,5,7,9</span>
+    <span class="token punctuation">}</span>
+   console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//10</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><h2 id="switch"><a href="#switch" class="header-anchor">#</a> switch</h2> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> i<span class="token operator">=</span><span class="token number">10</span><span class="token punctuation">;</span>
+<span class="token keyword">switch</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token keyword">case</span> <span class="token number">10</span><span class="token operator">:</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">break</span><span class="token punctuation">;</span>
+  <span class="token keyword">case</span> <span class="token number">20</span><span class="token operator">:</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">break</span><span class="token punctuation">;</span>
+   <span class="token keyword">default</span><span class="token operator">:</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;qqq&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>    
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><h2 id="with语句"><a href="#with语句" class="header-anchor">#</a> with语句</h2> <h2 id="label"><a href="#label" class="header-anchor">#</a> label</h2></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">最近更新时间:</span> <span class="time">1/27/2022, 9:33:12 AM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/javascript/基础/操作符.html" class="prev">
+        操作符
+      </a></span> <span class="next"><a href="/javascript/基础/数据类型.html">
+        数据类型
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.2601bdc8.js" defer></script><script src="/assets/js/2.13089680.js" defer></script><script src="/assets/js/44.f828a660.js" defer></script>
+  </body>
+</html>
