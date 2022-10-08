@@ -21,8 +21,6 @@ const navbar = [
           { text: "react.js", link: "/react/" },
         ],
       },
-
-     
     ],
   },
   {
@@ -37,7 +35,7 @@ const navbar = [
     text: "进阶",
     items: [
       /*  */
-      { text: "JS设计模式", link: "/JS设计模式/简介" },
+      { text: "JS设计模式", link: "/JS设计模式/概述/简介" },
       { text: "JS算法与数据结构", link: "/js-shu/" },
       { text: "Ajax&Axios", link: "/ajax/" },
       { text: "HTTP&HTTPS", link: "/http/" },
@@ -58,5 +56,5 @@ const navbar = [
 ];
 
 module.exports = {
-    navbar
-}
+  navbar,
+};
